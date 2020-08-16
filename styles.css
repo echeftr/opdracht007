@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Baloo Tamma 2", cursive;
+  color: red;
+}
+.black-border {
+  border: 0.5px dashed #ccc;
+  
+}
+.p1 {
+  text-align: left;
+}
+
+#green-background {
+  background-color: rgb(34, 243, 34);
+}
+a {
+  font-size: 18px;
+  color: white;
+}
+nav {
+  text-align: center;
+  border: 0.5px solid black;
+}
+.nav2 {
+  background-color: black;
+}
+a:hover {
+  color: red;
+}
+#ul-list {
+
+  color: #ffffff;
+  list-style: none;
+}
+#ul-list li {
+  display: inline;
+  margin: 10px;
+}
+.mylist {
+  margin: 0 auto;
+  font-weight: bold;
+  color: black;
+}
+
+.footer {
+  margin: 20px;
+  font-size: 12px;
+  text-align: right;
+  padding: 5px;
+
+}
+.h1-1 {
+  margin: 0 auto;
+  width: 800px;
+  color: blue;
+  font-size: 56px;
+}
+/*main {
+  margin: 20px;
+ padding: 20px;
+} */
+/*.header {
+  margin: 20px;
+  border: 1px solid yellow;
+}*/
+
+.main {
+  width: 900px;
+  margin: 0 auto; 
+
+}
+
+.box-model-prop {
+  border: solid 2px blue;
+  margin: 10px 20p 20px 20px;
+  padding: 10px;
+}
+
+/* MEDIA QUERIES */
+
+
+@media (min-width: 1024px) {
+  body {background-color: aqua;
+        color: green;
+        line-height: 1.6em;
+  }
+
+  p {font-size: 10px;}
+
+  .h1-1 {
+    margin: 0 auto;
+    width: 800px;
+    color: blue;
+    font-size: 56px;
+    padding: 30px;
+  }
+  
+}
